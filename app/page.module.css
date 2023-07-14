@@ -1,0 +1,16 @@
+.center {
+    text-align: center;
+    padding: 10px;
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+    border-radius: 50%;
+}
+

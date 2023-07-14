@@ -2,10 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
+
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+	--color-black: #000;
+	--color-white: #fff;
+	--color-gray-1: #d0d3d4;
+	--color-gray-2: #a2aaad;
+	--color-gray-3: #50585e;
+	--color-green: #228848;
+	--color-red: #d50032;
+
+	--color-background: #021423;
+	--color-body: #0c5c9a;
+	--color-primary: #921F05;
+	--color-primary-darker: #611707;
+	--color-primary-lighter: #ab2406;
+	--color-primary-body: var(--color-white);
+	--color-outline: #059266;
+	--color-error: var(--color-red);
+
+
+	--font-weight-light: 300;
+	--font-weight-regular: 400;
+	--font-weight-bold: 700;
+	--font-weight-ultra-black: 950;
+
+	--header-height: 3.5rem;
+	--footer-height: 12rem;
+
+	/** z indices */
+	--z-index-timeline: 1;
+	--z-index-event: 2;
+	--z-index-header: 10;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,12 +44,19 @@
   }
 }
 
+
+html,
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-size: 16px;
+  font-weight: var(--font-weight-regular);
+  line-height: 1.5;
+  color: var(--color-body);
+  background-color: var(--color-background);
 }
+h1 {
+	font-size: 5rem;
+}
+p {
+	font-size: 1.4rem;
+}
+
