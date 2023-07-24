@@ -12,7 +12,7 @@
 	--color-green: #228848;
 	--color-red: #d50032;
 
-	--color-background: #021423;
+	--color-background: #0a000a;
 	--color-body: #0c5c9a;
 	--color-primary: #921F05;
 	--color-primary-darker: #611707;
@@ -54,7 +54,7 @@ body {
   background-color: var(--color-background);
 }
 h1 {
-	font-size: 5rem;
+	font-size: 3rem;
 }
 p {
 	font-size: 1.4rem;
