@@ -5,6 +5,9 @@ import localFont from '@next/font/local';
 import styles from '../app/page.module.css'
 import Link from "next/link";
 import { useState } from "react";
+import linkedin from "../public/linkedin.png";
+import github from "../public/github-mark.png";
+import insta from "../public/insta.png";
 
 
 
@@ -42,13 +45,13 @@ export default function Page() {
     </div>
     <div className={styles.imageGit}>
       <Link href= "https://github.com/pxs4528">
-      <Image src={"/../public/github-mark.png"} alt="github" width={50} height={50}  />
+      <Image src={github} alt="github" width={50} height={50}  />
       </Link>
       <Link href= "https://www.linkedin.com/in/parthsharma0310/">
-      <Image src={"/../public/linkedin.png"} alt="linkedin" width={50} height={50}  />
+      <Image src={linkedin} alt="linkedin" width={50} height={50}  />
       </Link>
       <Link href= "https://www.instagram.com/parth.sharma2410/">
-      <Image src={"/../public/insta.png"} alt="instagram" width={50} height={50}  />
+      <Image src={insta} alt="instagram" width={50} height={50}  />
       </Link>
     </div>
 
