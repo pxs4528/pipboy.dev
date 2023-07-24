@@ -46,13 +46,13 @@ export default function Page() {
     </div>
     <div className={styles.imageGit}>
       <Link href= "https://github.com/pxs4528">
-      <Image src={github} alt="github" width={50} height={50}  />
+      <Image src={github} alt="github" width={35} height={35}  />
       </Link>
       <Link href= "https://www.linkedin.com/in/parthsharma0310/">
-      <Image src={linkedin} alt="linkedin" width={50} height={50}  />
+      <Image src={linkedin} alt="linkedin" width={35} height={35}  />
       </Link>
       <Link href= "https://www.instagram.com/parth.sharma2410/">
-      <Image src={insta} alt="instagram" width={50} height={50}  />
+      <Image src={insta} alt="instagram" width={35} height={35}  />
       </Link>
     </div>
 
