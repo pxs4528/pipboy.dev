@@ -10,6 +10,7 @@ import { useState } from "react";
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
+const epilogueBold = localFont({ src : '../public/fonts/Epilogue-Bold.otf', display: 'swap'});
 
 export default function Page() {
   const [isHovering, setIsHovering] = useState(false);
@@ -46,7 +47,21 @@ export default function Page() {
       <Link href= "https://www.linkedin.com/in/parthsharma0310/">
       <Image src={"/../public/linkedin.png"} alt="linkedin" width={50} height={50}  />
       </Link>
+      <Link href= "https://www.instagram.com/parth.sharma2410/">
+      <Image src={"/../public/insta.png"} alt="instagram" width={50} height={50}  />
+      </Link>
     </div>
+
+        <div className={styles.readme}>
+          <h2 className={epilogueBold.className}>readme.md</h2>
+        </div>
+        <div className={styles.interests}>
+          <h3 className={epilogue.className}>interests & hobbies</h3>
+          </div>
+         
+
+
+
     </div>
     
     </>
