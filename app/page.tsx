@@ -5,9 +5,10 @@ import localFont from '@next/font/local';
 import styles from '../app/page.module.css'
 import Link from "next/link";
 import { useState } from "react";
-import linkedin from "../public/linkedin.png";
-import github from "../public/github-mark.png";
-import insta from "../public/insta.png";
+import linkedin from "../public/linkedin.svg";
+import github from "../public/github.svg";
+import insta from "../public/i.svg";
+import { SiReact } from "@icons-pack/react-simple-icons";
 
 
 
