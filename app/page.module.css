@@ -5,7 +5,21 @@
     display: flex;
     justify-content: center;
     text-align: center;
+    
 }
+.name {
+    text-align: center;
+    width: 60%;
+}
+.container .pfp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 50%;
+    align-self: flex-end;
+  }
+
 
 .containerP {
     text-align: center;

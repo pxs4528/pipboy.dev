@@ -8,6 +8,8 @@ import { useState } from "react";
 import linkedin from "../public/linkedin.svg";
 import github from "../public/github.svg";
 import insta from "../public/i.svg";
+import pfp from "../public/pfp.jpg";
+import photo from "../public/pxs4528.jpg";
 import { SiReact } from "@icons-pack/react-simple-icons";
 
 
@@ -27,20 +29,45 @@ export default function Page() {
   return (
     <>
     <div className={styles.main}>
-    <div className={styles.container} 
-    onMouseOver={handleOver}
-    onMouseLeave={handleLeave}
-    >
-      {isHovering && (
-        <div>
-      <h1 className={boxing.className}>pip.boy&apos;s vault</h1>
+      <div className={styles.container} 
+      onMouseOver={handleOver}
+      onMouseLeave={handleLeave}
+      >
+        {
+        isHovering && (
+          <div className={styles.name}>
+            <h1 className={boxing.className}>pip.boy&apos;s vault</h1>
+          </div>)
+        }
+        {
+        !isHovering && (
+          <div className={styles.name}>
+            <h1 className={boxing.className}>parth&apos;s vault</h1>
+          </div>)
+        }
+        <div
+        onMouseOver={handleOver}
+        onMouseLeave={handleLeave}
+        >
+          {
+            isHovering && (
+              <Image className={styles.pfp} src={pfp} alt="my pfp lol" width={75} height={75} />
+          )
+          }
+          { 
+            !isHovering && (
+              <Image className={styles.pfp} src={photo} alt="my pfp lol" width={75} height={75} />
+          )
+          }
 
-          </div>)}
-      {!isHovering && (
-        <div>
-      <h1 className={boxing.className}>parth&apos;s vault</h1>
-      </div>)}
+        </div>
+      
+
     </div>
+
+
+
+
     <div className={styles.containerP}>
       <p className={epilogue.className}>software engineer, computer science, uta &apos;25, he/him</p>
     </div>
@@ -60,7 +87,7 @@ export default function Page() {
           <h2 className={epilogueBold.className}>readme.md</h2>
         </div>
         <div className={styles.interests}>
-          <h3 className={epilogue.className}>interests & hobbies</h3>
+          <h3 className={epilogueBold.className}>interests & hobbies</h3>
           </div>
          
 
