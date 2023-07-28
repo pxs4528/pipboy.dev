@@ -33,21 +33,7 @@ export default function Page() {
       onMouseOver={handleOver}
       onMouseLeave={handleLeave}
       >
-        {
-        isHovering && (
-          <div className={styles.name}>
-            <h1 className={boxing.className}>pip.boy&apos;s vault</h1>
-          </div>)
-        }
-        {
-        !isHovering && (
-          <div className={styles.name}>
-            <h1 className={boxing.className}>parth&apos;s vault</h1>
-          </div>)
-        }
         <div
-        onMouseOver={handleOver}
-        onMouseLeave={handleLeave}
         >
           {
             isHovering && (
@@ -61,6 +47,18 @@ export default function Page() {
           }
 
         </div>
+        {
+        isHovering && (
+          <div className={styles.name}>
+            <h1 className={boxing.className}>pip.boy&apos;s vault</h1>
+          </div>)
+        }
+        {
+        !isHovering && (
+          <div className={styles.name}>
+            <h1 className={boxing.className}>parth&apos;s vault</h1>
+          </div>)
+        }
       
 
     </div>
