@@ -86,15 +86,24 @@ export default function Page() {
         <div className={styles.readme}>
           <h2 className={epilogueBold.className}>readme.md</h2>
         </div>
-        <div className={styles.interests}>
-          <h3 className={epilogueBold.className}>interests & hobbies</h3>
+        <div className={styles.about}>
+          <p>
+            hi, my name is parth sharma, a {dob()} year old software engineer from dallas, texas.
+          </p>
           </div>
-         
-
-
-
     </div>
     
     </>
   )
+}
+
+const dob = () => {
+  var today = new Date();
+  var dob = new Date("10/24/2003");
+  var age = today.getFullYear() - dob.getFullYear();
+    var m = today.getMonth() - dob.getMonth();
+    if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+        age--;
+    }
+    return age;
 }
