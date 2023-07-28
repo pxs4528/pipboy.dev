@@ -5,7 +5,7 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "pip-boy's Vault",
+  title: "parth's Vault",
 }
 
 import localFont from '@next/font/local'
