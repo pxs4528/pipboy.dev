@@ -70,13 +70,13 @@ export default function Page() {
       <p className={epilogue.className}>software engineer, computer science, uta &apos;25, he/him</p>
     </div>
     <div className={styles.imageGit}>
-      <Link href= "https://github.com/pxs4528">
+      <Link target="_blank" href= "https://github.com/pxs4528">
       <Image src={github} alt="github" width={35} height={35}  />
       </Link>
-      <Link href= "https://www.linkedin.com/in/parthsharma0310/">
+      <Link target="_blank" href= "https://www.linkedin.com/in/parthsharma0310/">
       <Image src={linkedin} alt="linkedin" width={35} height={35}  />
       </Link>
-      <Link href= "https://www.instagram.com/parth.sharma2410/">
+      <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
       <Image src={insta} alt="instagram" width={35} height={35}  />
       </Link>
     </div>
@@ -87,6 +87,7 @@ export default function Page() {
         <div className={styles.about}>
           <p>
             hi, my name is parth sharma, a {dob()} year old software engineer from dallas, texas.
+            link to my resume is <Link target="_blank" className={styles.here} href="https://drive.google.com/file/d/1LXbl5fQ1CGCmiMhH25NaDP7aNSLb1aP3/view?usp=sharing">here</Link>      
           </p>
           </div>
     </div>
