@@ -1,0 +1,10 @@
+{
+    "name" : "Carbonise",
+    "version" : "1.0",
+    "authors" : "parth sharma, ethan, xavier, ryan",
+    "description" : "Carbonise is a web app that allows users to track their carbon footprint and compete with friends to reduce it.",
+    "image" : "https://opensource.com/sites/default/files/lead-images/LIFE_wavegraph.png",
+    "link" : "https://github.com/pxs4528/Carbonizer",
+    "languages" : "HTML, CSS, JavaScript, Node, Express, Python, Pandas, Numpy",
+    "time" : "fall 2022"
+}

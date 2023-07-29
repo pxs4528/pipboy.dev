@@ -11,8 +11,10 @@ import insta from "../public/i.svg";
 import pfp from "../public/pfp.jpg";
 import photo from "../public/pxs4528.jpg";
 import { SiReact } from "@icons-pack/react-simple-icons";
-
-
+import family from "../app/data/family.json"
+import carbonise from "../app/data/carbonise.json"
+import vault from "../app/data/vault.json"
+import Card from "../app/components/cards";
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
@@ -87,11 +89,26 @@ export default function Page() {
         <div className={styles.about}>
           <p>
             hi, my name is parth sharma, a {dob()} year old software engineer from dallas, texas.
-            link to my resume is <Link target="_blank" className={styles.here} href="https://drive.google.com/file/d/1LXbl5fQ1CGCmiMhH25NaDP7aNSLb1aP3/view?usp=sharing">here</Link>      
+            link to my résumé is <Link target="_blank" className={styles.here} href="https://drive.google.com/file/d/1LXbl5fQ1CGCmiMhH25NaDP7aNSLb1aP3/view?usp=sharing">here</Link>      
           </p>
           </div>
     </div>
+    <h2 className="justify-center text-center font-extrabold ">projects</h2>
+    <div className="items-center justify-center ps-8 flex flex-row fles-wrap py-8">
+    <Card name={family.name} description={family.description} img={family.image} link = {family.link} lang={family.languages} time={family.time}/> 
+    <Card name={carbonise.name} description={carbonise.description} img={carbonise.image} link = {carbonise.link} lang={carbonise.languages} time={carbonise.time}/> 
+    </div>
     
+    <div className="items-center justify-center ps-8 flex flex-row fles-wrap py-8">
+    <Card name={vault.name} description={vault.description} img={vault.image} link = {vault.link} lang={vault.languages} time={vault.time}/>
+    <p className={styles.moreP}>annnd some more ...
+      <ul>
+        <li>my <a rel="noopener" href="https://github.com/pxs4528/malloc" target="_blank"><span className={styles.here}>malloc</span></a> implementation in C</li>
+        <li>my <a rel="noopener" href="https://github.com/pxs4528/shell" target="_blank"><span className={styles.here}>shell </span></a>  implementation in C</li>
+        <li>hopefully in the future, my sql clone in C</li>
+      </ul>
+    </p>
+    </div>
     </>
   )
 }

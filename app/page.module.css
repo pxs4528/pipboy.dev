@@ -20,7 +20,10 @@
     height: 100%;
     color: rgb(126, 125, 125);
 }
-
+.moreP{
+    color: rgb(126, 125, 125);
+    font-size: 1.2rem;
+}
 .container .pfp {
     display: flex;
     justify-content: center;

@@ -1,0 +1,10 @@
+{
+    "name" : "fam.ily",
+    "version" : "1.0",
+    "authors" : "parth sharma, juan gamez, nhi tran, saja hussien",
+    "description" : "fam.ily is a social media platform that allows users to connect with their family members and friends. Users can create a profile, add family members and friends, and post pictures and videos. Users can also create groups and events.",
+    "image" : "https://static.vecteezy.com/system/resources/previews/002/292/974/non_2x/happy-family-with-son-and-daughter-parents-hugging-children-illustration-vector.jpg",
+    "link" : "https://github.com/pxs4528/fam.ily",
+    "languages" : "HTML, CSS, JavaScript, Node, Express, MongoDB, Mongoose, React",
+    "time" : "spring 2023"
+}
