@@ -15,6 +15,7 @@ import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
 import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
+import devpost from "../public/devpost.svg";
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
@@ -80,6 +81,9 @@ export default function Page() {
       </Link>
       <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
       <Image src={insta} alt="instagram" width={35} height={35}  />
+      </Link>
+      <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
+      <Image src={devpost} alt="instagram" width={35} height={35}  />
       </Link>
     </div>
 
