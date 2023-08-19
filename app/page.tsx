@@ -15,7 +15,6 @@ import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
 import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
-import devpost from "../public/devpost.svg";
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
@@ -74,16 +73,13 @@ export default function Page() {
     </div>
     <div className={styles.imageGit}>
       <Link target="_blank" href= "https://github.com/pxs4528">
-      <Image src={github} alt="github" width={35} height={35}  />
+      <Image className="pr-1" src={github} alt="github" width={35} height={35}  />
       </Link>
       <Link target="_blank" href= "https://www.linkedin.com/in/parthsharma0310/">
-      <Image src={linkedin} alt="linkedin" width={35} height={35}  />
+      <Image className="pr-2" src={linkedin} alt="linkedin" width={35} height={35}  />
       </Link>
       <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
-      <Image src={insta} alt="instagram" width={35} height={35}  />
-      </Link>
-      <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
-      <Image src={devpost} alt="instagram" width={35} height={35}  />
+      <Image className="pr-2" src={insta} alt="instagram" width={35} height={35}  />
       </Link>
     </div>
 
@@ -97,22 +93,24 @@ export default function Page() {
           </p>
           </div>
     </div>
-    <h2 className="justify-center text-center font-extrabold ">projects</h2>
-    <div className="items-center justify-center ps-8 flex flex-row fles-wrap py-8">
-    <Card name={family.name} description={family.description} img={family.image} link = {family.link} lang={family.languages} time={family.time}/> 
-    <Card name={carbonise.name} description={carbonise.description} img={carbonise.image} link = {carbonise.link} lang={carbonise.languages} time={carbonise.time}/> 
+    <h2 className='justify-center text-center text-3xl font-bold'>projects</h2>
+    <div className="items-center justify-center flex flex-row flex-wrap ">
+      <Card name={family.name} description={family.description} img={family.image} link={family.link} lang={family.languages} time={family.time} />
+      <Card name={carbonise.name} description={carbonise.description} img={carbonise.image} link={carbonise.link} lang={carbonise.languages} time={carbonise.time} />
+      <Card name={vault.name} description={vault.description} img={vault.image} link = {vault.link} lang={vault.languages} time={vault.time}/>
     </div>
+
     
     <div className="items-center justify-center ps-8 flex flex-row fles-wrap py-8">
-    <Card name={vault.name} description={vault.description} img={vault.image} link = {vault.link} lang={vault.languages} time={vault.time}/>
-    <p className={styles.moreP}>annnd some more ...
+    <p className={styles.moreP}>Additionally,
       <ul>
-        <li>my <a rel="noopener" href="https://github.com/pxs4528/malloc" target="_blank"><span className={styles.here}>malloc</span></a> implementation in C</li>
-        <li>my <a rel="noopener" href="https://github.com/pxs4528/shell" target="_blank"><span className={styles.here}>shell </span></a>  implementation in C</li>
-        <li>hopefully in the future, my sql clone in C</li>
+        <li>my custom memory allocation implementation using C -> <a rel="noopener" href="https://github.com/pxs4528/malloc" target="_blank"><span className={styles.here}>malloc</span></a></li>
+        <li>my creation of a C-based shell application -> <a rel="noopener" href="https://github.com/pxs4528/shell" target="_blank"><span className={styles.here}>shell </span></a></li>
       </ul>
     </p>
     </div>
+
+    
     </>
   )
 }
