@@ -104,13 +104,13 @@ export default function Page() {
     <div className="items-center justify-center ps-8 flex flex-row fles-wrap py-8">
     <p className={styles.moreP}>Additionally,
       <ul>
-        <li>my custom memory allocation implementation using C -> <a rel="noopener" href="https://github.com/pxs4528/malloc" target="_blank"><span className={styles.here}>malloc</span></a></li>
-        <li>my creation of a C-based shell application -> <a rel="noopener" href="https://github.com/pxs4528/shell" target="_blank"><span className={styles.here}>shell </span></a></li>
+        <li>my custom memory allocation implementation using C -&gt; <a rel="noopener" href="https://github.com/pxs4528/malloc" target="_blank"><span className={styles.here}>malloc</span></a></li>
+        <li>my creation of a C-based shell application -&gt; <a rel="noopener" href="https://github.com/pxs4528/shell" target="_blank"><span className={styles.here}>shell </span></a></li>
       </ul>
     </p>
     </div>
 
-    
+
     </>
   )
 }
