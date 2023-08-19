@@ -15,6 +15,7 @@ import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
 import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
+import List from "../app/components/list";
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
@@ -109,8 +110,10 @@ export default function Page() {
       </ul>
     </p>
     </div>
-
-
+    <div className="">
+    <h2 className=' text-center text-3xl font-bold'>my involvements</h2>
+     <List/>
+     </div>
     </>
   )
 }
