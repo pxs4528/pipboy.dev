@@ -22,6 +22,7 @@ const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', displ
 const epilogueBold = localFont({ src : '../public/fonts/Epilogue-Bold.otf', display: 'swap'});
 
 export default function Page() {
+  console.log(process.env.GITHUB_CLIENT_ID)
   const [isHovering, setIsHovering] = useState(false);
   const handleOver = () => {
     setIsHovering(true);
@@ -114,6 +115,8 @@ export default function Page() {
     <h2 className=' text-center text-3xl font-bold'>my involvements</h2>
      <List/>
      </div>
+
+     <h6 className="text-center text-2xl font-bold"><Link href="#">admin</Link></h6>
     </>
   )
 }

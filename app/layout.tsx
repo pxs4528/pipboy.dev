@@ -2,6 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
+import AuthProvider from './context/AuthProvider';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,9 +19,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={epilogue.className}>
+      <body className={epilogue.className}>\
+        <AuthProvider>
         {children}
         <Analytics  />
+        </AuthProvider>
       </body>
     </html>
   )
