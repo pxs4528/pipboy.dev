@@ -5,7 +5,7 @@ import React from "react";
 export default function Cards(props : any) {
     return (
         <>
-<div className="max-w-2xl mx-auto">
+<div className="max-w-2xl mx-auto py-6">
     
     <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-900 dark:border-blue-700">
         <a target="_blank" href={props.link}>
