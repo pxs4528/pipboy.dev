@@ -32,6 +32,7 @@ export default function Page() {
   }   
   return (
     <>
+      <h1>hello</h1>
     <div className={styles.main}>
       <div className={styles.container} 
       onMouseOver={handleOver}
