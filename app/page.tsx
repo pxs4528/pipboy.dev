@@ -116,7 +116,7 @@ export default function Page() {
      <List/>
      </div>
 
-     <h6 className="text-center text-2xl font-bold"><Link href="#">admin</Link></h6>
+     <button className="self-center text-center text-2xl font-bold"><Link className="self-center text-center text-2xl font-bold" href="/admin">admin</Link></button>
     </>
   )
 }
