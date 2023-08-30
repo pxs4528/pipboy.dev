@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={epilogue.className}>\
+      <body className={epilogue.className}>
         <AuthProvider>
         {children}
         <Analytics  />
