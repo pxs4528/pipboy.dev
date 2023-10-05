@@ -91,7 +91,7 @@ export default function Page() {
         <div className={styles.about}>
           <p>
             hi, my name is parth sharma, a {dob()} year old software engineer from dallas, texas.
-            link to my résumé is <Link target="_blank" className={styles.here} href="https://drive.google.com/file/d/1vm_eBrGtSWSsis9sPAfSqlGDot_yZ-QQ/view?usp=sharing">here</Link>      
+            link to my résumé is <Link target="_blank" className={styles.here} href="https://drive.google.com/file/d/1yfUiZjViKdD_zSwpbIzTJXFXF7ITR7_V/view?usp=drive_link">here</Link>      
           </p>
           </div>
     </div>
