@@ -7,12 +7,15 @@ import Link from "next/link";
 import { useState } from "react";
 import linkedin from "../public/linkedin.svg";
 import github from "../public/github.svg";
+import email from "../public/email.svg";
 import insta from "../public/i.svg";
+import resume from "../public/resume.svg";
 import pfp from "../public/pfp.jpg";
 import photo from "../public/pxs4528.jpg";
 import { SiReact } from "@icons-pack/react-simple-icons";
 import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
+import subhub from "../app/data/subhub.json"
 import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
 import List from "../app/components/list";
@@ -83,6 +86,12 @@ export default function Page() {
       <Link target="_blank" href= "https://www.instagram.com/parth.sharma2410/">
       <Image className="pr-2" src={insta} alt="instagram" width={35} height={35}  />
       </Link>
+      <Link target="_blank" href= "https://drive.google.com/file/d/1BEAXs3xYoGS1x6MFYeWchNqysQTJ18qX/view?usp=sharing">
+      <Image className="pr-2" src={resume} alt="resume" width={35} height={35}  />
+      </Link>
+      <Link target="_blank" href= "parthsharma.cs@gmail.com">
+      <Image className="pr-2" src={email} alt="email" width={35} height={35}  />
+      </Link>
     </div>
 
         <div className={styles.readme}>
@@ -100,6 +109,8 @@ export default function Page() {
       <Card name={family.name} description={family.description} img={family.image} link={family.link} lang={family.languages} time={family.time} />
       <Card name={carbonise.name} description={carbonise.description} img={carbonise.image} link={carbonise.link} lang={carbonise.languages} time={carbonise.time} />
       <Card name={vault.name} description={vault.description} img={vault.image} link = {vault.link} lang={vault.languages} time={vault.time}/>
+      <Card name={subhub.name} description={subhub.description} img={subhub.image} link = {subhub.link} lang={subhub.languages} time={subhub.time}/>
+
     </div>
 
     
