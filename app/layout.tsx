@@ -1,25 +1,36 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/react';
 import AuthProvider from './context/AuthProvider';
+import localFont from '@next/font/local'
 
-const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: "parth's Vault",
 }
 
-import localFont from '@next/font/local'
-const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
+const chillax = localFont({
+  src: [
+    {
+      path: '../public/fonts/Chillax-Regular.otf',
+      weight: 'normal',
+    },
+    {
+      path: '../public/fonts/Chillax-Bold.otf',
+      weight: 'bold',
+    },
+  ],
+  variable: '--font-chillax',
+})
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={epilogue.className}>
+    <html lang="en" className={`${chillax.variable} font-sans`}>
+      <body>
         <AuthProvider>
         {children}
         <Analytics  />

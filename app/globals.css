@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
 	--color-black: #000;
 	--color-white: #fff;
@@ -35,6 +34,7 @@
 	--z-index-event: 2;
 	--z-index-header: 10;
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
