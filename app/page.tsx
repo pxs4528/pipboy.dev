@@ -12,7 +12,6 @@ import insta from "../public/i.svg";
 import resume from "../public/resume.svg";
 import pfp from "../public/pfp.jpg";
 import photo from "../public/pxs4528.jpg";
-import { SiReact } from "@icons-pack/react-simple-icons";
 import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
 import subhub from "../app/data/subhub.json"
@@ -20,7 +19,6 @@ import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
 import List from "../app/components/list";
 import SquareIconButton from "./components/SquareIconButton";
-
 
 export default function Page() {
   const resume_link = "https://drive.google.com/file/d/1b8My0M0feUdq48xalc7RqwG2vcEJRdAo/view?usp=sharing";
