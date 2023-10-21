@@ -10,12 +10,12 @@ import github from "../public/github.svg";
 import insta from "../public/i.svg";
 import pfp from "../public/pfp.jpg";
 import photo from "../public/pxs4528.jpg";
-import { SiReact } from "@icons-pack/react-simple-icons";
 import family from "../app/data/family.json"
 import carbonise from "../app/data/carbonise.json"
 import vault from "../app/data/vault.json"
 import Card from "../app/components/cards";
 import List from "../app/components/list";
+
 
 const boxing = localFont({ src : '../public/fonts/Boxing-Regular.otf', display: 'swap'});
 const epilogue = localFont({ src : '../public/fonts/Epilogue-Regular.otf', display: 'swap'});
