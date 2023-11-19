@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import localFont from '@next/font/local';
+import localFont from "next/font/local";
 import styles from '../app/page.module.css'
 import Link from "next/link";
 import { useState } from "react";

@@ -2,7 +2,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Analytics } from '@vercel/analytics/react';
 import AuthProvider from './context/AuthProvider';
-import localFont from '@next/font/local'
+import localFont from "next/font/local"
 
 
 export const metadata: Metadata = {
