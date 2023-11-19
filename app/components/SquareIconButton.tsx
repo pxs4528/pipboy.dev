@@ -18,8 +18,8 @@ const SquareIconButton = (props: {
                 <div className="h-10 w-10 md:h-20 md:w-20 relative">
                     <Image
                         src={props.icon}
-                        layout="fill"
-                        objectFit="contain"
+                        fill
+                        style={{objectFit:"contain"}}
                         alt={props.icon}
                     />
                 </div>
