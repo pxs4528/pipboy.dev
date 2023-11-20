@@ -2,7 +2,7 @@
     "name" : "allocatron",
     "version" : "1.0",
     "authors" : "parth sharma",
-    "description" : "my own implementation of memory allcation program or malloc in C",
+    "description" : "my implementation of memory allcation program or malloc in C",
     "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
     "link" : "https://github.com/pxs4528/Allocatron",
     "Glink" : "https://github.com/pxs4528/Allocatron",
