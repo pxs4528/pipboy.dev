@@ -1,0 +1,11 @@
+{
+    "name" : "zenith",
+    "version" : "1.0",
+    "authors" : "parth sharma",
+    "description" : "zenith is a experimental interpreter for the zenith programming language written in Java, it's a simple language with a simple syntax😉",
+    "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
+    "link" : "https://github.com/pxs4528/zenith",
+    "Glink" : "https://github.com/pxs4528/zenith",
+    "languages" : "Java, Lexical-Analysis, Parsing-Algorithms",
+    "time" : "fall 2023"
+}

@@ -2,9 +2,10 @@
     "name" : "my vault",
     "version" : "1.0",
     "authors" : "parth sharma",
-    "description" : "in progress web app for me and my stuff, please ignore the commit messages lol",
+    "description" : "this website😎",
     "image" : "https://i.kym-cdn.com/entries/icons/mobile/000/006/026/NOTSUREIF.jpg",
     "link" : "https://github.com/pxs4528/pipboy.dev",
-    "languages" : "HTML, CSS, Typescript, Node, Next.js, React",
+    "Glink" : "https://github.com/pxs4528/pipboy.dev",
+    "languages" : "Next.js, React.js, Typescript, Node",
     "time" : "summer 2023"
 }

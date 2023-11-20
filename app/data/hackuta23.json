@@ -1,0 +1,11 @@
+{
+    "name" : "HackUTA'23 Website",
+    "version" : "1.0",
+    "authors" : "HackUTA Tech Team",
+    "description" : "The official Website for HackUTA'23 supporting over a 1000+ participants and concurrent users.",
+    "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
+    "link" : "https://hackuta.org/",
+    "Glink" : "https://github.com/acmuta/hackuta2023-site",
+    "languages" : "Next.js, ReactJs, TypeScript, TailwindCSS, MongoDB, SendGrid, Vercel",
+    "time" : "Jun 2023 - Present"
+}
