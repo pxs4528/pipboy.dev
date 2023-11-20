@@ -2,7 +2,7 @@
     "name" : "pip-shell",
     "version" : "1.0",
     "authors" : "parth sharma, Dhru, Nick",
-    "description" : "my own implementation of a shell in C, supporting all the basic commands and some extra features",
+    "description" : "my implementation of a shell in C, supporting all the basic commands and some extra features",
     "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
     "link" : "https://github.com/pxs4528/pip-shell/",
     "Glink" : "https://github.com/pxs4528/pip-shell",
