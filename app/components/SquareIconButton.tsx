@@ -7,15 +7,15 @@ const SquareIconButton = (props: {
     href: string;
 }) => {
     return (
-        <div className="mx-2 items-center md:mx-4 lg:mx-8">
+        <div className="mx-2 items-center md:mx-2 lg:mx-2">
             <a
-                className="h-20 w-20 md:h-28 md:w-28 rounded-2xl flex items-center justify-center broder-transparent border-solid cursor-pointer duration-200 hover:border-4 hover:scale-110"
+                className="h-16 w-16 md:h-20 md:w-20 rounded-2xl flex items-center justify-center broder-transparent border-solid cursor-pointer duration-200 hover:border-4 hover:scale-110"
                 style={{ backgroundColor: props.color }}
                 href={props.href}
                 target="_blank"
                 rel="noreferrer"
             >
-                <div className="h-10 w-10 md:h-20 md:w-20 relative">
+                <div className="h-10 w-10 md:h-14 md:w-14 relative">
                     <Image
                         src={props.icon}
                         fill

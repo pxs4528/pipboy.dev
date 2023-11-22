@@ -26,7 +26,7 @@ import SquareIconButton from "./components/SquareIconButton";
 
 export default function Page() {
   const projects = [hackuta23, subhub, zenith, family, vault, malloc, shell, carbonise]
-  const resume_link = "https://drive.google.com/file/d/1b8My0M0feUdq48xalc7RqwG2vcEJRdAo/view?usp=sharing";
+  const resume_link = "https://drive.google.com/file/d/1daXEKrLnqAM1luKA_71z_oxEoskTX3C8/view?usp=sharing";
   console.log(process.env.GITHUB_CLIENT_ID)
   const [isHovering, setIsHovering] = useState(false);
   const handleOver = () => {
@@ -46,17 +46,19 @@ export default function Page() {
           >
             {
               isHovering && (
-                <Image className={styles.pfp} src={pfp} alt="my pfp lol" width={75} height={75} />
+                <Image className="flex justify-center items-center rounded-full self-start" src={pfp} alt="my pfp lol" width={125} height={75} />
               )
             }
             {
               !isHovering && (
-                <Image className={styles.pfp} src={photo} alt="my pfp lol" width={75} height={75} />
+                <Image className="flex justify-center items-center rounded-full self-start" src={photo} alt="my pfp lol" width={125} height={75} />
               )
             }
 
           </div>
-          {
+        </div>
+        <div className="flex justify-center items-center">
+        {
             isHovering && (
               <div className={styles.name}>
                 <h1 className="font-chilla">pip.boy&apos;s vault</h1>
@@ -68,8 +70,6 @@ export default function Page() {
                 <h1 className="font-chillax">parth&apos;s vault</h1>
               </div>)
           }
-
-
         </div>
 
 
@@ -78,7 +78,7 @@ export default function Page() {
         <div className={styles.containerP}>
           <p className="font-chillax-bold ">software engineer, computer science, uta &apos;25, he/him</p>
         </div>
-        <div className="justify-center flex flex-row m-7 flex-wrap">
+        <div className="items-center justify-center flex flex-row m-7 flex-wrap">
           <SquareIconButton
             color="@E4B2CA"
             icon={github}
@@ -128,7 +128,7 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className=' text-center text-3xl font-bold'>my involvements</h2>
+      <h2 className=' text-center text-white text-3xl font-bold'>my involvements</h2>
       <List />
 
     </>
