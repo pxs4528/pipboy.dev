@@ -128,7 +128,7 @@ export default function Page() {
         ))}
       </div>
 
-      <h2 className=' text-center text-white text-3xl font-bold'>my involvements</h2>
+      <h2 className=' text-center text-white text-3xl font-bold m-3'>my involvements</h2>
       <List />
 
     </>

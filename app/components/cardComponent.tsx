@@ -9,11 +9,14 @@ const CardComponent = ({ project  } : any) => {
         <Card>
             <Link target="_blank" href={link}>
                 <article className="relative w-full h-full p-4 md:p-8">
-                    <div className="flex items-center justify-between gap-2">
-                        <div className="text-xs text-zinc-100">
+                    <div className="flex items-center justify-between gap-3">
+                        <div className="text-base text-zinc-100">
                             <span className="hidden text-zinc-100 md:block">{time}</span>
                         </div>
-                        <span className="flex items-center gap-1 text-xs text-zinc-500">
+                        <div className='text-white text-3xl'>
+                            |
+                        </div>
+                        <span className="flex items-end gap-1 text-base text-zinc-500">
                             <span className="hidden text-zinc-100 md:block">{languages}</span>
                         </span>
                     </div>

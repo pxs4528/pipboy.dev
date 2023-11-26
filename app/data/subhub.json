@@ -2,7 +2,7 @@
     "name" : "SubHub",
     "version" : "1.0",
     "authors" : "parth sharma, Dhru, Nick",
-    "description" : "SubHub is a comprehensive subscription management application designed to help users efficiently manage their subscriptions. It provides a user-oriented, versatile solution for organizing subscription services.",
+    "description" : "SubHub is a comprehensive subscription management application designed to help users efficiently manage their subscriptions.",
     "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
     "link" : "https://nextjs-dashboard-brown-two.vercel.app/",
     "Glink" : "https://github.com/pxs4528/SubHub",
