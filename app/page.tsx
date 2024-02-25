@@ -78,6 +78,9 @@ export default function Page() {
         <div className={styles.containerP}>
           <p className="font-chillax-bold ">software engineer, computer science, uta &apos;25, he/him</p>
         </div>
+        <div className={styles.containerP}>
+          <p className="font-chillax-bold text-lg italic text-amber-600">&quot;What I cannot create, I do not understand&quot; - Feynman</p>
+        </div>
         <div className="items-center justify-center flex flex-row m-7 flex-wrap">
           <SquareIconButton
             color="@E4B2CA"
@@ -112,7 +115,7 @@ export default function Page() {
         </div>
 
         <div className={styles.readme}>
-          <h2 className="font-chillax">readme.md</h2>
+          <h2 className="font-chillax text-amber-600">readme.md</h2>
         </div>
         <div className={styles.about}>
           <p className="font-chillax">
