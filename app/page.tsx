@@ -26,7 +26,7 @@ import SquareIconButton from "./components/SquareIconButton";
 
 export default function Page() {
   const projects = [hackuta23, subhub, zenith, family, vault, malloc, shell, carbonise]
-  const resume_link = "https://drive.google.com/file/d/16d2elK9kDjq4Rs3aJxhXyOOb0x5CR8MA/view?usp=sharing";
+  const resume_link = "https://drive.google.com/file/d/18lZ0NLIkPoP9MwR1ppU-gPYrbfTJIN8E/view?usp=sharing";
   console.log(process.env.GITHUB_CLIENT_ID)
   const [isHovering, setIsHovering] = useState(false);
   const handleOver = () => {
