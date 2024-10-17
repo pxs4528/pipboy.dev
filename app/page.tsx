@@ -19,13 +19,14 @@ import subhub from "../app/data/subhub.json"
 import zenith from "../app/data/zenith.json"
 import hackuta23 from "../app/data/hackuta23.json"
 import malloc from "../app/data/malloc.json"
+import stellr from "../app/data/stellr.dev.json"
 import vault from "../app/data/vault.json"
 import CardComponent from "../app/components/cardComponent";
 import List from "../app/components/list";
 import SquareIconButton from "./components/SquareIconButton";
 
 export default function Page() {
-  const projects = [hackuta23, subhub, zenith, family, vault, malloc, shell, carbonise]
+  const projects = [stellr, hackuta23, subhub, zenith, family, vault, malloc, shell, carbonise]
   const resume_link = "https://drive.google.com/file/d/18lZ0NLIkPoP9MwR1ppU-gPYrbfTJIN8E/view?usp=sharing";
   console.log(process.env.GITHUB_CLIENT_ID)
   const [isHovering, setIsHovering] = useState(false);
