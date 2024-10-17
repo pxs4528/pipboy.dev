@@ -4,7 +4,7 @@
     "authors" : "parth sharma, Jane Wang",
     "description" : " Flash code onto a virtual CPU to control a spaceship’s engines, sensors, and more, just like real hardware! ",
     "image" : "https://raw.githubusercontent.com/pxs4528/SubHub/main/frontend/src/assets/subhub_logo.svg",
-    "link" : "stellr.dev",
+    "link" : "https://stellr.dev/",
     "Glink" : "https://github.com/stellr-dev/stellr.dev",
     "languages" : "TypeScript", 
     "time" : "october 2024"
