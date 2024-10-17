@@ -26,7 +26,7 @@ import List from "../app/components/list";
 import SquareIconButton from "./components/SquareIconButton";
 
 export default function Page() {
-  const projects = [stellr, hackuta23, subhub, zenith, family, vault, malloc, shell, carbonise]
+  const projects = [stellr, hackuta23, subhub, zenith]
   const resume_link = "https://drive.google.com/file/d/18lZ0NLIkPoP9MwR1ppU-gPYrbfTJIN8E/view?usp=sharing";
   console.log(process.env.GITHUB_CLIENT_ID)
   const [isHovering, setIsHovering] = useState(false);
